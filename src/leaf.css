@@ -1,0 +1,35 @@
+/* Container for the entire map component */
+.route-map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Styling for the map title */
+  .route-map-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the map container */
+  .map-container {
+    width: 100%;
+    max-width: 900px; /* Max width for the map */
+    height: 500px; /* Fixed height for the map */
+    border: 2px solid #ccc; /* Light border around the map */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    margin-top: 20px;
+  }
+  
+  /* Loading message styling */
+  .loading-message {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

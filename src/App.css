@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/bagel-fat-one');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap');
+
+.get_started {
+    background: linear-gradient(60deg, transparent 50%, rgb(48, 238, 48) 50%);
+    background-size: 300% 100%;
+    background-position: bottom left;
+    transition: background-position 1s ease, background-color 1s ease;
+}
+
+.get_started:hover{
+    background-position: right bottom;
+}
+
+.cardfont{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
